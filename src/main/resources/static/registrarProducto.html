@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registar Producto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/producto.css">
+    </head>
+    <body>
+        <header>
+            <h1>Registrar Producto</h1>
+            <nav class="navRegistro">
+                <a href="index.html" class="aIndex">Página Principal</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <form id="registroForm" method="POST">
+
+                <label for="txtNombre">Nombre:</label>
+                <input type="text" id="txtNombre">
+
+                <label for="txtDescripcion">Descripción:</label>
+                <textarea id="txtDescripcion"></textarea>
+
+                <label for="txtPrecio">Precio:</label>
+                <input type="number" id="txtPrecio">
+
+                <label for="txtCosto">Costo del producto:</label>
+                <input type="number" id="txtCosto">
+
+                <label for="txtExistencia">Existencia:</label>
+                <input type="number" id="txtExistencia">
+
+                <button type="submit" onclick="registrarProducto(event)" class="btnRegistrar" id="btnRegistrar">Registrar</button>
+                <button type="button" onclick="actualizarProducto()" class="btnRegistrar" id="btnActualizar" style="display:none;">Actualizar</button>
+
+            </form>
+        </main>
+
+        <footer></footer>
+    </body>
+
+    <script src="../js/registrarProducto.js"></script>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registrar Venta</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/producto.css">
+    </head>
+    <body>
+        <header>
+            <h1>Registrar Venta</h1>
+            <nav class="navRegistro">
+                <a href="index.html" class="aIndex">Página Principal</a>
+            </nav>
+        </header>
+
+        <main>
+            <form id="registroForm" method="POST">
+
+                <label for="txtIDProducto">ID Producto:</label>
+                <input type="number" id="txtIDProducto">
+
+                <label for="txtCantidad">Cantidad:</label>
+                <input type="number" id="txtCantidad">
+
+                <label for="txtFecha">Fecha de venta</label>
+                <input type="date" id="txtFecha">
+
+                <button type="submit" onclick="registrarVenta(event)" class="btnRegistrar" id="btnRegistrar">Registrar</button>
+            </form>
+        </main>
+
+        <footer></footer>
+
+    </body>
+    <script src="../js/registrarVenta.js"></script>
+</html>
