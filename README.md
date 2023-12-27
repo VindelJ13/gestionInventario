@@ -22,3 +22,5 @@ This project is an inventory management application. It provides CRUD operations
 spring.datasource.url=jdbc:mysql://localhost:3306/inventario
 spring.datasource.username=your_username
 spring.datasource.password=your_password
+```
+4. You can access the interface through http://localhost:8080 or the port of your choice specified in the application.properties file.
