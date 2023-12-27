@@ -2,7 +2,8 @@
 This project is an inventory management application. It provides CRUD operations to manage inventory items and sales. The application uses a MySQL database to store information.
 
 ## Technologies Used
-- Java (SpringBoot 3.2.0).
+- Java 17.
+- SpringBoot 3.2.0.
 - JavaScript.
 - HTML.
 - CSS.
