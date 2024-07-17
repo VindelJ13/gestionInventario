@@ -13,6 +13,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-family: sans-serif;
 }
 
 main {
@@ -24,6 +25,7 @@ h1 {
     margin: 20px;
     text-align: center;
     color: #494d49;
+    font-size: 2em;
 }
 
 h2, h3, h4{
@@ -77,8 +79,11 @@ button:hover, a:hover{
 
 /*Estilos tabla productos*/
 table{
-    margin: 40px auto;
-    width: 85%;
+    margin: 80px auto;
+    width: 50%;
+    display: block;
+    overflow-x: auto; /* Permite desplazamiento horizontal en pantallas pequeñas */
+    text-align: center;
 }
 
 th{
@@ -204,4 +209,50 @@ p{
 .sectionIndex p {
     margin-top: 5px;
     margin-bottom: 10px;
+}
+
+/* Media Queries */
+/* dispositivos móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+        margin: 10px;
+    }
+
+    #registroForm {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .navRegistro {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sectionIndex {
+        width: 95%;
+        padding: 10px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+
+    button, a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .aIndex, .aIndex2 {
+        margin-left: 10px;
+    }
 }
