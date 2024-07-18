@@ -11,6 +11,9 @@ This project is an inventory management application. It provides CRUD operations
 - MySQL.
 - Apache NetBeans IDE 20.
 
+## Quick Access
+gestioninventario.up.railway.app
+
 ## Installation
 1. Clone the repository or download the source code.
 2. The database script is in the inventario.sql file at the root of the project.
